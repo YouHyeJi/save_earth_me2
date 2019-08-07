@@ -1,0 +1,34 @@
+.category{
+    width:250px;
+    margin-left:70px;
+}
+
+input[type="submit"] {
+    font-family: FontAwesome;
+}
+input{
+    background-color: white;
+    border: 0;
+}
+img{
+    width: 15em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+.single-service > h3{
+    padding-top: 10px;
+}
+.single-service > p{
+    padding: 10px;
+}
+.container_product{
+    width: 1000px;
+    margin-left: 27em;
+}
+
+/* prodetail의 페이지 */
+
+.proimg{
+    width: 30px;
+    height: 40px;
+}
