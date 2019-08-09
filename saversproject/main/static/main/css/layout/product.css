@@ -9,8 +9,9 @@ input{
 
 img{
     width: 15em;
+    height: 15em;
     margin-bottom: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .single-service > h3{
@@ -21,25 +22,41 @@ img{
     padding: 10px;
 }
 
+.single-service{
+    width:16.5em;
+}
+
+p{
+    padding:0px 3px 0px 3px;
+}
+
 /* ---------로고, 상품------- */
-.p1{
-    margin-left: 5em;
-    display: flex;
-    flex-direction: row;
-}
 
+
+#product-border{
+    margin-left:80px;
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+}
 .savimg{
-    flex: 0 0 30px;
+    margin-left:10px;
+    margin-top:40px;
 }
 
-.savimg:nth-child(2){
-    flex: 0 0 30px;
+.hr{
+    margin-left:85px;
+    margin-top:50px;
 }
-/* 
-.savimg:nth-child(3){
-    flex: 0 0 100px;
-} */
+.wr{
+    margin-top:50px;
+    margin-left: 32em;
+}
 
+.he{
+    margin-left:500px;
+    margin-top:50px;
+}
 
 /* --------카테고리, 상품--------- */
 
@@ -97,10 +114,14 @@ img{
 
 .pro_img{
     width: 500px;
-    height: 500px;
+    height: 700px;
     margin-left:10em;
     margin-top:10em;
     margin-bottom: 10em;
-    
-
+    /* display: flex;
+    flex-direction: row; */
 }
+/* 
+.det{
+    flex: 0 0 100px;
+} */
